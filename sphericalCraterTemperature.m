@@ -1,7 +1,7 @@
 function [T] = sphericalCraterTemperature(solarConstant, depthToDiameter, albedo, emissivity, solarElevationAngle)
 %
-% This function calculates the shadow temperature a spherical crater would
-% have according to the model built by Ingersoll et al., 1992.
+% This function calculates the permanent shadow temperature of a spherical crater
+% according to a model by Ingersoll et al., 1992.
 %
 % Input:
 % solarConstant -           the solar constant at the modeled crater.
